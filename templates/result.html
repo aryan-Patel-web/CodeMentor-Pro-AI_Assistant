@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Code Summary - Result</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #eef2f7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #0077cc;
+    }
+
+    p, pre {
+      font-size: 16px;
+      color: #444;
+      white-space: pre-wrap;
+      background-color: #f9f9f9;
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+    }
+
+    a {
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    audio {
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>✅ AI Code Summary</h1>
+
+    <h2>📄 Summary:</h2>
+    <p>{{ summary }}</p>
+
+    <h2>🌐 Hindi Translation:</h2>
+    <p>{{ hindi_summary }}</p>
+
+    <h2>🌐 Spanish Translation:</h2>
+    <p>{{ spanish_summary }}</p>
+
+    <h2>🔗 PDF Report:</h2>
+    <p><a href="{{ pdf_link }}" target="_blank">Click here to view or download PDF</a></p>
+
+    <h2>🔊 Voice Summary:</h2>
+    <audio controls>
+      <source src="{{ audio_path }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="footer">Created by Aryan Patel • Delivered by CodeMentor Pro AI</div>
+  </div>
+</body>
+</html>

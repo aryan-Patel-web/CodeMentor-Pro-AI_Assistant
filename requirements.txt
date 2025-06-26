@@ -1,0 +1,55 @@
+# lanchain_nvidia_ai_endpoints
+# lanchain_community
+# faiss-cpu
+
+
+
+
+# langchain>=0.1.13
+# langchain-community>=0.0.22
+# langchain-nvidia-ai-endpoints>=0.0.5  
+# faiss-cpu>=1.7.4
+langchain
+langchain_openai
+
+python-dotenv
+langchain_community
+langchain_chroma
+chroma
+langchain_core
+
+streamlit
+langchain_huggingface
+huggingface_hub
+langchain_groq
+pypdf
+
+
+
+weasyprint
+
+
+
+gtts
+googletrans==4.0.0-rc1
+
+python-telegram-bot==13.15
+
+
+################# for code assistance using codellama - ollama run codellama in terminal
+langchain
+gradio
+jinja2
+python-dotenv>=1.0.1
+
+
+flask
+fpdf
+python-dotenv
+twilio
+langchain
+langchain-nvidia-ai-endpoints
+langchain-community
+faiss-cpu
+
+cloudinary

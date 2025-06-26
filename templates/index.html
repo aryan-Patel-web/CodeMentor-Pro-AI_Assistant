@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeMentor Pro - AI Code Assistant</title>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 750px;
+      margin: 60px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin: 18px 0 6px;
+      font-weight: bold;
+      color: #333;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 15px;
+    }
+
+    input[type="file"] {
+      padding: 8px;
+    }
+
+    button {
+      margin-top: 30px;
+      background-color: #0077cc;
+      color: white;
+      border: none;
+      padding: 14px 24px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #005fa3;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      color: #888;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 CodeMentor Pro</h1>
+    <form method="POST" enctype="multipart/form-data">
+      <label>Email Address:</label>
+      <input type="email" name="email" required>
+
+      <label>WhatsApp Number (with country code):</label>
+      <input type="text" name="whatsapp" required>
+
+      <label>Question:</label>
+      <input type="text" name="question" placeholder="e.g., Explain this code" required>
+
+      <label>Paste Code (Optional):</label>
+      <textarea name="code_input" rows="5" placeholder="Paste code here..."></textarea>
+
+      <label>Upload Code File(s) (Optional):</label>
+      <input type="file" name="codefile" multiple accept=".py,.js,.txt">
+
+      <button type="submit">Analyze with AI 🔍</button>
+    </form>
+    <div class="footer">Created by Aryan Patel • Powered by Ollama + Flask</div>
+  </div>
+</body>
+</html>
