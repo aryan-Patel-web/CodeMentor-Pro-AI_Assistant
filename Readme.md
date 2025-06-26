@@ -23,19 +23,26 @@ It delivers insights with translations (Hindi + Spanish), generates a PDF report
 ## 🔧 Project Structure
 
 # CodeMentor-Pro-AI_Assistant/
+CodeMentor-Pro-AI/
 │
-├── app.py # Flask backend
-├── .env # Secrets (API keys, tokens)
+├── app.py                         # Main Flask backend
 ├── templates/
-│ ├── index.html # UI form page
-│ └── result.html # Result display
-├── utils/
-│ ├── email_utils.py # Send email with attachments
-│ ├── whatsapp_utils.py # WhatsApp via Twilio
-│ ├── telegram_utils.py # Telegram message & files
-│ ├── translate_utils.py # Google Translate API
-│ ├── tts_utils.py # gTTS/pyttsx3 voice generator
-│ └── cloudinary_utils.py # Upload files to Cloudinary
+│   ├── index.html                 # Upload & input form
+│   └── result.html                # Result viewer
+│
+├── utils/                         # Modular utility functions
+│   ├── email_utils.py
+│   ├── whatsapp_utils.py
+│   ├── telegram_utils.py
+│   ├── cloudinary_utils.py
+│   ├── translate_utils.py
+│   └── tts_utils.py
+│
+├── .env                           # API keys & config
+├── requirements.txt               # Python dependencies
+├── static/                        # (optional) for CSS/JS if needed
+└── README.md                      # Documentation
+
 
 
 ---
