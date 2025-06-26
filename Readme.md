@@ -122,8 +122,13 @@ Get document-ready output without manual editing
 
 
 👨‍💻 Author
-Aryan Patel
-GitHub | LinkedIn
+Name: Aryan Patel
+
+GitHub: @aryan-Patel-web
+
+Project Name: CodeMentor-Pro-AI
+
+
 
 
 
