@@ -54,16 +54,26 @@ Install all dependencies using pip:
 ```bash
 pip install -r requirements.txt
 
-Flask==3.0.3
-requests==2.32.3
-python-dotenv==1.0.1
-pdfkit==1.0.0
-cloudinary==1.39.1
-gtts==2.5.1
-pyttsx3==2.90
-twilio==9.0.1
-python-telegram-bot==13.15
-googletrans==4.0.0-rc1
+# ✅ Requirements for CodeMentor Pro – AI Code Assistant
+
+## Core Backend
+- flask
+- python-dotenv
+- requests
+- pdfkit
+
+## Translation & Audio
+- googletrans==4.0.0rc1
+- gtts
+
+## Communication
+- twilio
+- cloudinary
+- python-telegram-bot
+
+## Optional (PDF Gen & Media Conversion)
+- wkhtmltopdf (install manually)
+
 
 .env Folder
 
